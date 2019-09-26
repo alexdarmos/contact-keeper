@@ -5,7 +5,7 @@ import alertReducer from './alertReducer';
 import { SET_ALERT, REMOVE_ALERT } from '../types';
 
 const AlertState = props => {
-	const initialState = {};
+	const initialState = [];
 
 	//state allows us to access anything in our state
 	//dispatch allows us to dispatch to reducer
